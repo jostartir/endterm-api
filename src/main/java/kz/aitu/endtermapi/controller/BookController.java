@@ -19,13 +19,11 @@ public class BookController {
         this.bookService = bookService;
     }
 
-    // GET http://localhost:8080/books
     @GetMapping
     public List<BookBase> getAll() {
         return bookService.getAll();
     }
 
-    // GET http://localhost:8080/books/5
     @GetMapping("/{id}")
     public BookBase getById(@PathVariable int id) {
         return bookService.getById(id);
