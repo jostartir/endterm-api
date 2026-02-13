@@ -30,7 +30,7 @@ The caching logic is inside the Service layer. The Controller and Repository lay
 
 **SOLID Principles:**
 
-We created a separate CacheManager class. It has only one responsibility – managing the cache. This follows the Single Responsibility Principle.
+We created a separate CacheManager class. It has only one responsibility - managing the cache. This follows the Single Responsibility Principle.
 
 ### How to Test
 
